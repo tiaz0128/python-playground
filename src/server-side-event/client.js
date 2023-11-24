@@ -1,0 +1,9 @@
+const eventSource = new EventSource("http://localhost:5000/connection/tiaz");
+
+eventSource.onmessage = function(event) {
+    console.log("New event:", event.data);
+};
+
+eventSource.addEventListener("notice", (e) => {
+  console.log(event.data);
+});
