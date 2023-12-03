@@ -1,8 +1,10 @@
-from flask import Flask, Response, Request
+from flask import Flask, Response
+from flask_cors import CORS
 from time import sleep
 import json
 
 app = Flask(__name__)
+CORS(app)
 
 
 def generator(user_id):
