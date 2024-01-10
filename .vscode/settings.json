@@ -11,5 +11,6 @@
     "python.testing.pytestEnabled": true,
     "code-runner.executorMap": {
         "python": "call $workspaceRoot\\.venv\\Scripts\\activate.bat && set PYTHONIOENCODING=utf8 && python -u $fullFileName",
-    }
+    },
+    "python.analysis.typeCheckingMode": "basic"
 }
