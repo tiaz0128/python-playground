@@ -1,5 +1,2 @@
-black
 mypy
-pylint
 pytest
-pylint
